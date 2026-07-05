@@ -130,5 +130,76 @@ The work done $W$ is positive when the system expands against an external pressu
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Control Chart: PartLength (Machine 1)
+
+Here, we introduce the X-bar control chart for `PartLength` from Machine 1. This chart helps us assess if the process is in a state of statistical control.
+
+**Interpretation:**
+- Points within the control limits ($\pm 3\sigma$) indicate a stable process.
+- Points outside the limits or specific patterns suggest special causes of variation.
+
+::: {.notes}
+Discuss the purpose of control charts and why X-bar charts are used for process means. Highlight any points that fall outside the control limits or show non-random patterns, indicating an out-of-control process. Explain the meaning of UCL, LCL, and CL.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/partlength_xbar_machine1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Control Chart: PartLength (Machine 1)
+
+Here, we introduce the X-bar control chart for `PartLength` from Machine 1. This chart helps us assess if the process is in a state of statistical control.
+
+**Interpretation:**
+- Points within the control limits ($\pm 3\sigma$) indicate a stable process.
+- Points outside the limits or specific patterns suggest special causes of variation.
+
+::: {.notes}
+Discuss the purpose of control charts and why X-bar charts are used for process means. Highlight any points that fall outside the control limits or show non-random patterns, indicating an out-of-control process. Explain the meaning of UCL, LCL, and CL.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/partlength_xbar_machine1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Control Chart: PartResistance (Machine 1)
+
+Following the analysis of `PartLength`, we now examine the X-bar control chart for `PartResistance` from Machine 1. This provides insight into the stability of electrical resistance in the manufactured parts.
+
+**Interpretation:**
+- Similar to PartLength, we look for points outside control limits or non-random patterns to identify process instability.
+
+::: {.notes}
+Discuss the findings from the PartResistance control chart. Compare its stability to the PartLength chart. Are there any common issues or unique challenges for PartResistance?
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/partresistance_xbar_machine1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
+
+---
 # Bibliography
 <div id="refs"></div>
